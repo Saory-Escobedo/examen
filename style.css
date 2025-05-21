@@ -1,0 +1,172 @@
+  .menu {
+  margin: 0;
+  width: 100%; 
+  height: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 10; 
+  background-color: #ffffff;
+  color: #0e0e0e;
+  }
+  .logo{
+    margin-top: -10px;
+  }
+  .portada{
+    margin-top: 50px;
+    margin-left: -60px;
+  }
+  .nombre{
+     margin-top: -680px;
+    margin-left: 87px;
+  }
+  .resaltado {
+    color: rgb(173, 173, 173);
+    transition: color 0.3s ease;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .resaltado:hover {
+    color: orange;
+  }
+
+  .resaltado2 {
+    color: rgb(43, 43, 43);
+    transition: color 0.3s ease;
+    font-size: 25px;
+    margin-left: 20px;  
+  }
+
+  .resaltado2:hover {
+    color: orange;
+  }
+  .selecc{
+    font-size: 20px;
+    color: #0e0e0e;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -90px;
+    margin-left: 1200px;
+  }
+  a{
+  text-decoration: none;
+  color: #0e0e0e;
+  }
+  .parallax{
+    background-image: url(https://previews.123rf.com/images/stockbakery/stockbakery1708/stockbakery170802949/84975012-llamanos-cont%C3%A1ctenos-gesto-por-la-chica-joven.jpg);
+    height: 500px;
+ 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h6{
+  font-size: 60px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3{
+  font-size: 30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.imgaEsp{
+  margin-left: 700px;
+  margin-top: -870px;
+}
+.pirili{
+  width: 320px;height: 150px;
+  background-image:url(img/pipi.png);
+  animation: mover 1s infinite;/*"mover" es el nombre  e la animacion y lo de 2 es los segundos que va a durar y tendra un ciclo infinito*/
+}
+      @keyframes mover{
+      0%{transform: translateX(0);}
+      50%{transform: translateX(50px);}
+      100%{transform: translateX(100px);}
+      }
+
+
+.caca{
+  margin-left: 800px;
+}
+.caca2{
+  margin-left: 900px;
+  margin-top: -140px;
+
+}
+.marg{
+  margin-left: 160px;
+}
+
+.resaltado3 {
+  color: rgb(43, 43, 43);
+  transition: color 0.3s ease;
+}
+
+.resaltado3:hover {
+  color: orange;
+}
+h4{
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #2d2d2d;
+}
+.par{
+  margin-top: -90px;
+}
+.color{
+  background-color:#2d2d2d;
+}
+
+#slideshow {
+  text-align: center;
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin-bottom: 400px;
+}
+ 
+.slide-wrapper {
+  width: 2912px;
+  animation: slide 18s ease infinite;
+}
+ 
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+ 
+.slide:nth-child(1) { /*Elementos de una etiqueta que estan dentro*/
+  background-color: rgb(216, 41, 243);
+  margin-top: -22px;
+}
+ 
+.slide:nth-child(2) {
+  background-color: coral;
+
+}
+ 
+.slide:nth-child(3) {
+  background-color: greenyellow;
+}
+ 
+.slide:nth-child(4) {
+  background-color: brown;
+}
+ 
+@keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
+}
+
+.marg2{
+  margin-top: -80px;
+  margin-left: 160px;
+}
+.imag{
+  margin-top: -40px;
+}
